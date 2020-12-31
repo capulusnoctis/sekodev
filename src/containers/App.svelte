@@ -9,7 +9,21 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         column-gap: 20px;
-        margin: 0 10px;
+        margin: 0 0;
+        height: 100vh;
+    }
+    div.main::after {
+        content: "";
+        background-image: url('https://ik.imagekit.io/sekosolares/SekoSite/FB_IMG_1584824595407_QVRBO0TbX.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        filter: brightness(0.42) blur(1px);
+        position: absolute;
+        z-index: -1; 
     }
     div.main-container {
         grid-column: 1 / 5;
@@ -24,21 +38,16 @@
         font-family: 'Montserrat', sans-serif;
         letter-spacing: 0.35em;
         font-size: 5em;
+        border-top: 1px solid;
+        padding: 12px 0;
+        border-bottom: 1px solid;
     }
-    .bg-image {
-        position: absolute;
-        top: 0;
-        left: -10em;
-        bottom: 0;
-        right: 0;
-        filter: brightness(0.5);
-        filter: drop-shadow(1.8);
-        z-index: -1;
+    div.main-container span {
+        font-weight: 500;
     }
 </style>
 
 <div class="main">
-    <img src="https://ik.imagekit.io/sekosolares/SekoSite/FB_IMG_1584824595407_QVRBO0TbX.jpg" class="bg-image" alt="background_image">
     
     <div class="main-container">
         <h1>SEKO</h1>
