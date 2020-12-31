@@ -24,6 +24,7 @@
         filter: brightness(0.42) blur(1px);
         position: absolute;
         z-index: -1; 
+        min-height: 420px;
     }
     div.main-container {
         grid-column: 1 / 5;
@@ -44,6 +45,11 @@
     }
     div.main-container span {
         font-weight: 500;
+        text-align: center;
+    }
+    i {
+        font-size: 2.2em;
+        margin: 0.5em;
     }
 </style>
 
@@ -53,6 +59,10 @@
         <h1>SEKO</h1>
         <h2>Developing Experiences</h2>
 
-        <span>Site is Under Construction</span>
+        <span>
+            <i class="fas fa-exclamation-triangle"></i>
+            <br>
+            Site is Under Construction
+        </span>
     </div>
 </div>
