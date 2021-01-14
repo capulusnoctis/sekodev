@@ -1,5 +1,7 @@
 <script>
-    import Construction from '../components/Construction.svelte';
+    import Header from '../components/Header.svelte';
 </script>
 
-<Construction/>
+<div class="Main-container">
+    <Header/>
+</div>
