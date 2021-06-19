@@ -23,7 +23,7 @@
         right: 0;
         filter: brightness(0.42) blur(1px);
         position: absolute;
-        z-index: -1; 
+        z-index: -1;
         min-height: 420px;
     }
     div.main-container {
@@ -54,7 +54,6 @@
 </style>
 
 <div class="main">
-    
     <div class="main-container">
         <h1>SEKO</h1>
         <h2>Developing Experiences</h2>
